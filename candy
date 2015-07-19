@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+set -e
+
+SNIPPETS_PATH="$HOME/Library/Developer/Xcode/UserData/CodeSnippets"
+BACKUP_PATH="$HOME/Library/Developer/Xcode/UserData/CodeSnippets_Candy_Backup"
+CANDY_PATH=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd )
+
+# show help message
+function help() {
+cat << _EOF_
+$0 Usage:
+help - show this message
+link - link snippets to user xcode snippets directory
+unlink - unlink snippets
+_EOF_
+}
+
+# link snippets
+function link_snippets() {
+  if [[ -L "${SNIPPETS_PATH}" ]];then
+    echo "Already linked"
+    return
+  fi
+
+  if [[ -e "${SNIPPETS_PATH}" ]];then
+    mv "${SNIPPETS_PATH}" "${BACKUP_PATH}"
+  fi
+  echo "link ${CANDY_PATH} -> ${SNIPPETS_PATH}"
+  ln -Ffs "${CANDY_PATH}" "${SNIPPETS_PATH}"
+}
+
+# unlink snippets
+function unlink_snippets() {
+  if [[ -L "${SNIPPETS_PATH}" ]];then
+    rm "${SNIPPETS_PATH}"
+    if [[ -e "${BACKUP_PATH}" ]];then
+      mv "${BACKUP_PATH}" "${SNIPPETS_PATH}"
+    fi
+  fi
+  echo "OK"
+}
+
+case $1 in
+    help) help;;
+    link) link_snippets;;
+    unlink) unlink_snippets;;
+    "") help;;
+esac

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>IDECodeSnippetCompletionPrefix</key>
+  <string>categorya</string>
+  <key>IDECodeSnippetCompletionScopes</key>
+  <array>
+    <string>TopLevel</string>
+  </array>
+  <key>IDECodeSnippetContents</key>
+  <string>@interface &lt;#Class Name#&gt;()
+
+@end</string>
+  <key>IDECodeSnippetIdentifier</key>
+  <string>43095342-690E-45F0-9DF8-E01823F959EC</string>
+  <key>IDECodeSnippetLanguage</key>
+  <string>Xcode.SourceCodeLanguage.Objective-C</string>
+  <key>IDECodeSnippetSummary</key>
+  <string>anonymos category to define private properties and methods</string>
+  <key>IDECodeSnippetTitle</key>
+  <string>Anonymous Category</string>
+  <key>IDECodeSnippetUserSnippet</key>
+  <true/>
+  <key>IDECodeSnippetVersion</key>
+  <integer>2</integer>
+</dict>
+</plist>
