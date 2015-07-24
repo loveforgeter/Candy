@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markp</string>
+	<string>marka</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Public Interface</string>
+	<string>#pragma mark - Accessors</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A44031E-43FF-4BCB-8EB9-BF73BE18A1F9</string>
+	<string>5C7A5075-09BB-4E45-A2BD-8B0767356420</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark Public Interface</string>
+	<string>Mark Accessors</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markvl</string>
+	<string>marka</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - View Liftcycle</string>
+	<string>#pragma mark - User Action</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A4EB748F-11CF-42D2-B499-70B9E6310FCA</string>
+	<string>486511AF-C4E2-4B00-9203-8B839B29B35D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark View Lifecycle</string>
+	<string>Mark Actions</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

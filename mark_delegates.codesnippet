@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markua</string>
+	<string>markd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - User Action</string>
+	<string>#pragma mark - Delegates</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>486511AF-C4E2-4B00-9203-8B839B29B35D</string>
+	<string>BE245B7C-8A5C-4324-8998-0E0C03926FE3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark User Action</string>
+	<string>Mark Delegates</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
