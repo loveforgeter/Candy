@@ -14,6 +14,8 @@
 	<string>D1C9BF57-4089-4801-93FA-E2BB7DAB42BB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift Unowned Self</string>
 	<key>IDECodeSnippetUserSnippet</key>

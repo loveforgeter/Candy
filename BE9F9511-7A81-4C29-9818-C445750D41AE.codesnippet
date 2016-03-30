@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>guardlet</string>
+	<string>guardself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let &lt;#unwrapped#&gt; = &lt;#wrapped#&gt; else {
-      &lt;#statements#&gt;
-      return
-    }</string>
+	<string>guard let `self` = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B3C013E3-4F89-4CAA-8EA9-7E4EBDA634E5</string>
+	<string>BE9F9511-7A81-4C29-9818-C445750D41AE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Guard-Let Statement</string>
+	<string>Swift Guard Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

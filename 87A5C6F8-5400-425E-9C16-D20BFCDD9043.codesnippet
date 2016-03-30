@@ -6,7 +6,7 @@
 	<string>guardreturn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>guard &lt;#condition#&gt; else { return }</string>
@@ -14,6 +14,8 @@
 	<string>87A5C6F8-5400-425E-9C16-D20BFCDD9043</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift Guard Return Statement</string>
 	<key>IDECodeSnippetUserSnippet</key>

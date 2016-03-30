@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>guardlet</string>
+	<string>neterror</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let &lt;#unwrapped#&gt; = &lt;#wrapped#&gt; else {
-      &lt;#statements#&gt;
-      return
-    }</string>
+	<string>if let error = response.result.error {
+            let errorMessage = error.localizedDescription
+            DDLogError(errorMessage)
+            self.view.showHUD(.Error, text: "请求失败", autoHide: true)
+            return
+          }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B3C013E3-4F89-4CAA-8EA9-7E4EBDA634E5</string>
+	<string>8249BF98-005C-4E63-A33C-F44BB74781F2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Guard-Let Statement</string>
+	<string>Swift Net Request Error</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

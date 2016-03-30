@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sessionerror</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 错误处理
+if let error = response.result.error {
+// Session检测
+          if error == Error.Code.InvalidSession {
+            SessionManager.sharedManager.refreshSession({ () -&gt; Void in
+              &lt;#statement#&gt;
+            })
+          } else {
+            DDLogError(error.localizedDescription)
+            self.view.showHUD(.Error, text: "网络错误", autoHide: true)
+          }
+          return
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FB83FCF7-F359-47FE-8402-ABACB93FCBD0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Session Error</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
