@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>ws</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let `self` = self else { return }</string>
+	<string>[weak self]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE9F9511-7A81-4C29-9818-C445750D41AE</string>
+	<string>36EABCF8-B4E1-46D3-BDA4-B26B7E35D302</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Weak self capture list without variables</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift strongify self</string>
+	<string>Weak self capture list</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

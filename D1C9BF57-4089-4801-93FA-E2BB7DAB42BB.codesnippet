@@ -6,10 +6,10 @@
 	<string>us</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[unowned self]</string>
+	<string>[unowned self] in</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D1C9BF57-4089-4801-93FA-E2BB7DAB42BB</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Unowned Self</string>
+	<string>Swift unowned self capture list</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

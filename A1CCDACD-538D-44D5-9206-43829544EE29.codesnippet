@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>sel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let `self` = self else { return }</string>
+	<string>#selector(&lt;#selector#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE9F9511-7A81-4C29-9818-C445750D41AE</string>
+	<string>A1CCDACD-538D-44D5-9206-43829544EE29</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift strongify self</string>
+	<string>Swift selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
