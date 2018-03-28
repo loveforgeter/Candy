@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ws</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] &lt;#variables#&gt; in</string>
+	<string>#pragma mark - &lt;#mark#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EEE5A10B-6A43-425F-8C15-5B12562BF30A</string>
+	<string>04FAB9A9-7309-4A12-AA95-52FB3A37BDB8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Weak self capture list with variables</string>
+	<string>Pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak self capture list</string>
+	<string>Objective-C Pragma Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

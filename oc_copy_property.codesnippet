@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>pc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let `self` = self else { return }</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt; &lt;#property name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE9F9511-7A81-4C29-9818-C445750D41AE</string>
+	<string>4CCA656A-EFA2-40A7-AF93-6B05FD0EE8AF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Copy property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift strongify self</string>
+	<string>Objective-C Copy Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

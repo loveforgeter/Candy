@@ -3,24 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vc</string>
+	<string>ci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>viewController</string>
+	<string>@implementation &lt;#class name#&gt; (&lt;#category name#&gt;)
+
+&lt;#methods#&gt;
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0954EC18-0243-4AFF-A831-5B04626795B6</string>
+	<string>9D46A610-4074-4A19-B657-39699932371F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Category implementation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift ViewController</string>
+	<string>Objective-C Category Implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

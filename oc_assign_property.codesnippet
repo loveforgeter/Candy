@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tbc</string>
+	<string>pa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>tabBarController</string>
+	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#property name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>774EBB5F-B360-46F8-8B31-87248E305D27</string>
+	<string>C4044338-A459-4947-838B-99C4D555CC9B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Assign property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift TabBarController</string>
+	<string>Objective-C Assign Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

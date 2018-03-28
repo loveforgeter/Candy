@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tdcell</string>
+	<string>ci</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return cell;
-}</string>
+	<string>@interface &lt;#class name#&gt; (&lt;#category name#&gt;)
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5161BC0E-3F2E-49F5-B511-AB02FEB55271</string>
+	<string>E4FE1FBF-86C4-47FA-9D92-0C007BE8F640</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Category interface</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TableView Cell Delegate</string>
+	<string>Objective-C Category Interface</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

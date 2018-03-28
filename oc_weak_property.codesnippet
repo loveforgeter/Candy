@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>po</string>
+	<string>pw</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,weak) IBOutlet &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (nonatomic, weak) &lt;#class name#&gt; * &lt;#property name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E3EA31C5-90D9-46FF-A0DD-90284D4591B6</string>
+	<string>F5631A5E-E571-490F-8ACE-058953EBF0A9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Weak property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property IBOutlet</string>
+	<string>Objective-C Weak Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
